@@ -1,0 +1,296 @@
+Script started on Sun 03 May 2020 01:16:20 AM EDT
+[05/03/20]seed@VM:~$ chmod a+x sniffer.py
+
+[05/03/20]seed@VM:~$ sudo ./sniffer.py
+
+###[ Ethernet ]### 
+
+  dst       = 52:54:00:12:35:00
+
+  src       = 08:00:27:bf:ca:32
+
+  type      = IPv4
+
+###[ IP ]### 
+
+     version   = 4
+
+     ihl       = 5
+
+     tos       = 0x0
+
+     len       = 84
+
+     id        = 24302
+
+     flags     = DF
+
+     frag      = 0
+
+     ttl       = 64
+
+     proto     = icmp
+
+     chksum    = 0xbfa5
+
+     src       = 10.0.2.6
+
+     dst       = 8.8.8.8
+
+     \options   \
+
+###[ ICMP ]### 
+
+        type      = echo-request
+
+        code      = 0
+
+        chksum    = 0xb5e4
+
+        id        = 0xf66
+
+        seq       = 0x1
+
+###[ Raw ]### 
+
+           load      = '\xe8S\xae^\xae\xfe\x02\x00\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./01234567'
+
+
+
+###[ Ethernet ]### 
+
+  dst       = 08:00:27:bf:ca:32
+
+  src       = 52:54:00:12:35:00
+
+  type      = IPv4
+
+###[ IP ]### 
+
+     version   = 4
+
+     ihl       = 5
+
+     tos       = 0x0
+
+     len       = 84
+
+     id        = 712
+
+     flags     = 
+
+     frag      = 0
+
+     ttl       = 52
+
+     proto     = icmp
+
+     chksum    = 0x67cc
+
+     src       = 8.8.8.8
+
+     dst       = 10.0.2.6
+
+     \options   \
+
+###[ ICMP ]### 
+
+        type      = echo-reply
+
+        code      = 0
+
+        chksum    = 0xbde4
+
+        id        = 0xf66
+
+        seq       = 0x1
+
+###[ Raw ]### 
+
+           load      = '\xe8S\xae^\xae\xfe\x02\x00\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./01234567'
+
+
+
+###[ Ethernet ]### 
+
+  dst       = 52:54:00:12:35:00
+
+  src       = 08:00:27:bf:ca:32
+
+  type      = IPv4
+
+###[ IP ]### 
+
+     version   = 4
+
+     ihl       = 5
+
+     tos       = 0x0
+
+     len       = 84
+
+     id        = 24472
+
+     flags     = DF
+
+     frag      = 0
+
+     ttl       = 64
+
+     proto     = icmp
+
+     chksum    = 0xbefb
+
+     src       = 10.0.2.6
+
+     dst       = 8.8.8.8
+
+     \options   \
+
+###[ ICMP ]### 
+
+        type      = echo-request
+
+        code      = 0
+
+        chksum    = 0xe9d8
+
+        id        = 0xf66
+
+        seq       = 0x2
+
+###[ Raw ]### 
+
+           load      = '\xe9S\xae^y\t\x03\x00\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./01234567'
+
+
+
+###[ Ethernet ]### 
+
+  dst       = 08:00:27:bf:ca:32
+
+  src       = 52:54:00:12:35:00
+
+  type      = IPv4
+
+###[ IP ]### 
+
+     version   = 4
+
+     ihl       = 5
+
+     tos       = 0x0
+
+     len       = 84
+
+     id        = 713
+
+     flags     = 
+
+     frag      = 0
+
+     ttl       = 52
+
+     proto     = icmp
+
+     chksum    = 0x67cb
+
+     src       = 8.8.8.8
+
+     dst       = 10.0.2.6
+
+     \options   \
+
+###[ ICMP ]### 
+
+        type      = echo-reply
+
+        code      = 0
+
+        chksum    = 0xf1d8
+
+        id        = 0xf66
+
+        seq       = 0x2
+
+###[ Raw ]### 
+
+           load      = '\xe9S\xae^y\t\x03\x00\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./01234567'
+
+
+
+###[ Ethernet ]### 
+
+  dst       = 52:54:00:12:35:00
+
+  src       = 08:00:27:bf:ca:32
+
+  type      = IPv4
+
+###[ IP ]### 
+
+     version   = 4
+
+     ihl       = 5
+
+     tos       = 0x0
+
+     len       = 84
+
+     id        = 24678
+
+     flags     = DF
+
+     frag      = 0
+
+     ttl       = 64
+
+     proto     = icmp
+
+     chksum    = 0xbe2d
+
+     src       = 10.0.2.6
+
+     dst       = 8.8.8.8
+
+     \options   \
+
+###[ ICMP ]### 
+
+        type      = echo-request
+
+        code      = 0
+
+        chksum    = 0x73d1
+
+        id        = 0xf66
+
+        seq       = 0x3
+
+###[ Raw ]### 
+
+           load      = '\xeaS\xae^\xee\x0f\x03\x00\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./01234567'
+
+
+
+###[ Ethernet ]### 
+
+  dst       = 08:00:27:bf:ca:32
+
+  src       = 52:54:00:12:35:00
+
+  type      = IPv4
+
+###[ IP ]### 
+
+     version   = 4
+
+     ihl       = 5
+
+     tos       = 0x0
+
+     len       = 84
+
+     id        = 714
+
+   
