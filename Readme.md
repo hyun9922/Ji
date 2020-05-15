@@ -61,6 +61,10 @@ VPN 가상 사설망이다. VPN 네트워크에 접속하게 되면 외부 컴�
 ![경기 isakmp](https://user-images.githubusercontent.com/63446087/82045899-da778100-96ea-11ea-8f7f-6e34eddfba6e.jpg)
 
 * 암호화 방식은 AES 256을 이용하였고 lifetime은 1800초를 두었다.
+
+![캡슐화](https://user-images.githubusercontent.com/63446087/82048894-66d87280-96f0-11ea-9040-9867c14ea519.jpg)
+
+* IPSec의 캡슐화가 되었는지 볼 수 있다.
  
  <img width="230" alt="IPSec" src="https://user-images.githubusercontent.com/63446087/82045986-fc710380-96ea-11ea-8248-2f2574d15eed.png">
  
@@ -70,11 +74,12 @@ VPN 가상 사설망이다. VPN 네트워크에 접속하게 되면 외부 컴�
 
 
 
-## 참고문헌
+## 참고
 
 * 참고문헌
-    Issues and Security on IPSec: Survey(홍성혁;2014)
-    TCP Performance Analysis on IPSec Environments(양광식)
+   Issues and Security on IPSec: Survey(홍성혁;2014)
+   
+   TCP Performance Analysis on IPSec Environments(양광식)
 
 
 
