@@ -79,6 +79,5 @@ TCP Performance Analysis on IPSec Environments(양광식)
 
 
 * 이미지 출처
-https://m.blog.naver.com/PostView.nhn?blogId=kim10322&logNo=150047963420&proxyReferer=https:%2F%2Fwww.google.com%2F
 https://www.itfind.or.kr/WZIN/jugidong/952/95201.html
 
