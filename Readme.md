@@ -19,8 +19,8 @@ AH에는 전송모드와 터널모드가 있다.
 
     터널 모드의 경우 새로운 IP 헤더와 AH가 IP 패킷 앞부분에 추가되어 전체 패킷에 대한 인증을 하게 된다. 전송모드와 비슷한 형태를 가지고 있는데  NEW IP Hdr가 있다는 게 차이점이다.
 
-![tunnel](https://user-images.githubusercontent.com/63446087/82044375-35f43f80-96e8-11ea-839f-5bd6f4aa9b2c.png)
-![Uploading AH outbound.jpg…]()
+![AH outbound](https://user-images.githubusercontent.com/63446087/82045005-4d7ff800-96e9-11ea-9859-efad61df1047.jpg)
+
     
     AH에서 Outbound는 먼저 SA가 존재하는지 찾아야한다. SA가 개설 되었다면 SN값은 0으로 설정을 해둔다. 셋팅이 되면 패킷 전송이 되고 1씩 증가 할 것이다. 만약 SN이 Overfloew가 되면 SA를 삭제하고 다시 만들어야 한다. 패킷의 ICV를 계산하고 전송을 하면 된다.
     수신하는 Inbound 패킷 처리는 SA를 찾아야한다. 찾지 못하면 패킷은 버려지게 될 것이다. SA를 찾았다면 SN값을 0으로 설정 한 뒤 들어오는 패킷의 SN을 지켜본다. 중복 된 SN은 버린다.  ICV값과 AH내의 값이 동일하면 넘기고 같지 않으면 버린다.
