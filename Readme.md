@@ -39,4 +39,4 @@ VPN 가상 사설망이다. VPN 네트워크에 접속하게 되면 외부 컴�
 
 
 *참고문헌
-https://support.huawei.com/enterprise/en/doc/EDOC1100092806/1b9e4d6/encapsulation-mode
+
