@@ -66,7 +66,7 @@ VPN 가상 사설망이다. VPN 네트워크에 접속하게 되면 외부 컴�
  
 ![경기 isakmp](https://user-images.githubusercontent.com/63446087/82045899-da778100-96ea-11ea-8f7f-6e34eddfba6e.jpg)
 
-* 암호화 방식은 AES 256을 이용하였고 lifetime은 1800초를 두었다.
+* 암호화는 AES방식을 이용하였고 lifetime은 1800초를 두었다.
 
  
  <img width="230" alt="IPSec" src="https://user-images.githubusercontent.com/63446087/82045986-fc710380-96ea-11ea-8248-2f2574d15eed.png">
