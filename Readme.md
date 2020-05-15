@@ -4,13 +4,13 @@ IPSec
 IPsec은 Network Layer이며 Internet Protocol통신을 보호하기 위해 설계된  프로토콜 모음이다. 네트워크 IP계층에서의 보안에 중점을 두며 가상 사설망과 사설망을 사용하는 tcp/ip통신을 안전하게 유지할 수 있도록 인증, 데이터 무결성, 접근제어, 데이터 기밀성 등등의 서비스를 IP 계층에 제공한다. 
 
 IPSec은 세션이 시작할 때 상호 인증을 위한 프로토콜과 세션 중에 사용할 암호키의 교섭이 포함되어 있다. host-to-host, network-to-host, network-to-network의 데이터 흐름을  보호하기 위해 사용되어지고 있다. 
-주요 장점으로는 Network Layer에서 동작되기 때문에 application이랑은 무관하게 동작한다. HTTP, FTP등 TCP/IP프로그램에 대한 연결에 대하여 보안이 보장된다. 마지막으로 tunneling mode를 사용하면 다른 프로토콜과도 동작할 수 있다. Appletalk의 경우 많은 시간동안 ip tunneling을 사용할 수 있기 때문에 IPSec 또한 적용가능하다.
+주요 장점으로는 Network Layer에서 동작되기 때문에 application이랑은 무관하게 동작한다. HTTP, FTP등 TCP/IP프로그램에 대한 연결에 대하여 보안이 보장된다. 마지막으로 tunneling mode를 사용하면 다른 프로토콜과도 동작할 수 있다.
 
 IPSec에는 데이터 송신자의 인증을 허용하는 인증 헤더 (AH), 송신자의 인증 및 데이터 암호화를 지원하는 ESP (Encapsulating Security Payload), IKE 프로토콜로 구성 되어있다.
 
 AH(Authentication Header protocol)
 -----------------------------------
-AH는 패킷에 대한 인증기능을 제공하는 역할을 한다. AH 인증은 IP 헤터 패킷이 전송중일 때 그에 대한 조작을 불가능하게 만든다. 따라서 NAT 종단간 환경에서의 사용을 부적절하게 만들기도 한다. AH의 가장 큰 특징은 출발지 인증, 데이터 무결성은 보장하지만 기밀성은 보장되지 않는 것 이다. 공유 비밀 키를 사용하여 데이터 원본 인증이 보장되며 HMAC-MD5 이나 HMAC-SHA와 같은 알고리즘으로 데이터 무결성을 보장한다. 또한 TTL (Time To Live) 필드와 함께 전송 중에 합법적으로 변경 될 수 있는 헤더 필드를 제외하고 IP 헤더와 해당 페이로드를 인증하게 된다.
+AH는 패킷에 대한 인증기능을 제공하는 역할을 한다. AH 인증은 IP 헤터 패킷이 전송중일 때 그에 대한 조작을 불가능하게 만든다. 따라서 NAT 종단간 환경에서의 사용을 부적절하게 만들기도 한다. AH의 가장 큰 특징은 출발지 인증, 데이터 무결성은 보장하지만 기밀성은 보장되지 않는 것 이다. 공유 비밀 키를 사용하여 데이터 원본 인증이 보장되며 HMAC-MD5 이나 HMAC-SHA와 같은 알고리즘으로 데이터 무결성을 보장한다. 또한 TTL(Time To Live) 필드와 함께 전송 중에 합법적으로 변경 될 수 있는 헤더 필드를 제외하고 IP 헤더와 해당 페이로드를 인증하게 된다.
 AH에는 전송모드와 터널모드가 있다.
 
 ![tunnel](https://user-images.githubusercontent.com/63446087/82044375-35f43f80-96e8-11ea-839f-5bd6f4aa9b2c.png)
