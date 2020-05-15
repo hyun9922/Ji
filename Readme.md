@@ -70,5 +70,15 @@ VPN 가상 사설망이다. VPN 네트워크에 접속하게 되면 외부 컴�
 
 
 
-*참고문헌
+## 참고문헌
+
+* 참고문헌
+Issues and Security on IPSec: Survey(홍성혁;2014)
+TCP Performance Analysis on IPSec Environments(양광식)
+
+
+
+* 이미지 출처
+https://m.blog.naver.com/PostView.nhn?blogId=kim10322&logNo=150047963420&proxyReferer=https:%2F%2Fwww.google.com%2F
+https://www.itfind.or.kr/WZIN/jugidong/952/95201.html
 
