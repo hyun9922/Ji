@@ -68,9 +68,6 @@ VPN 가상 사설망이다. VPN 네트워크에 접속하게 되면 외부 컴�
 
 * 암호화 방식은 AES 256을 이용하였고 lifetime은 1800초를 두었다.
 
-![캡슐화](https://user-images.githubusercontent.com/63446087/82048894-66d87280-96f0-11ea-9040-9867c14ea519.jpg)
-
-* IPSec의 캡슐화가 되었는지 볼 수 있다.
  
  <img width="230" alt="IPSec" src="https://user-images.githubusercontent.com/63446087/82045986-fc710380-96ea-11ea-8248-2f2574d15eed.png">
  
