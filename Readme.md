@@ -49,6 +49,25 @@ IPSec VPN
 ----------
 VPN 가상 사설망이다. VPN 네트워크에 접속하게 되면 외부 컴퓨터라도 내부 네트워크에 접속해 있는 것처럼 사용할 수 있게 된다. VPN을 사용하는 이유는 인터넷에 연결된 장치에는 장치를 식별하고 연결하는데 이용되는 공용IP주소가 있다. 데이터는 인터넷을 통해 전송되어지는데 IP주소 정보를 포함하고 있다. 안전하지 않은 네트워크를 통해 전송되면 중간데 차단될 것이다. 인터넷을 통해 전송되는 개인정보, 데이터를 보호하기 위해 VPN을 사용하게 된다.
 
+-라우터를 이용한 IPSec VPN-
+
+![VPN](https://user-images.githubusercontent.com/63446087/82045762-997f6c80-96ea-11ea-9519-2c046adfbe31.jpg)
+
+* Cisco Packet Tracer 프로그램으로 구현 환경을 만들어 주었다.
+  IPSec은 VPN 연결을 통하여 데이터를 전송할 때 데이터를 암호화 하는 기능을 수행하기 때문에 내부의 데이터를 보호 해줄 수 있다.
+  
+ <img width="270" alt="경기" src="https://user-images.githubusercontent.com/63446087/82045897-d9465400-96ea-11ea-974a-5f0136187f12.png">
+ 
+![경기 isakmp](https://user-images.githubusercontent.com/63446087/82045899-da778100-96ea-11ea-8f7f-6e34eddfba6e.jpg)
+
+* 암호화 방식은 AES 256을 이용하였고 lifetime은 1800초를 두었다.
+ 
+ <img width="230" alt="IPSec" src="https://user-images.githubusercontent.com/63446087/82045986-fc710380-96ea-11ea-8248-2f2574d15eed.png">
+ 
+*  IPSec이 잘 구현되었는지 시뮬레이션 해보았다.
+ 
+
+
 
 
 *참고문헌
