@@ -1,0 +1,14 @@
+Script started on Tue 16 Jun 2020 07:28:50 AM EDT
+[06/16/20]seed@VM:~$ ping facebook.com
+PING facebook.com (157.240.215.35) 56(84) bytes of data.
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+^C
+--- facebook.com ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2034ms
+
+[06/16/20]seed@VM:~$ exit
+exit
+
+Script done on Tue 16 Jun 2020 07:29:04 AM EDT

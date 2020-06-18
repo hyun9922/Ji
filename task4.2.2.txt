@@ -1,0 +1,19 @@
+Script started on Tue 16 Jun 2020 07:20:38 AM EDT
+[06/16/20]seed@VM:~$ su[K[Ksudo ufw enable
+Firewall is active and enabled on system startup
+[06/16/20]seed@VM:~$ sudo ufw deny out to[K[Kon eth12 to 157.240.215.35/2 4
+WARN: Rule changed after normalization
+Skipping adding existing rule
+[06/16/20]seed@VM:~$ sudo ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+128.230.210.0/24           DENY OUT    Anywhere on eth12         
+157.240.215.0/24           DENY OUT    Anywhere on enp0s3        
+157.240.215.0/24           DENY OUT    Anywhere on eth12         
+
+[06/16/20]seed@VM:~$ exit
+exit
+
+Script done on Tue 16 Jun 2020 07:21:44 AM EDT

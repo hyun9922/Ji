@@ -1,0 +1,41 @@
+Script started on Tue 16 Jun 2020 10:39:52 PM EDT
+[06/16/20]seed@VM:~$ ipconfig -a
+No command 'ipconfig' found, did you mean:
+ Command 'iconfig' from package 'ipmiutil' (universe)
+ Command 'ifconfig' from package 'net-tools' (main)
+ Command 'iwconfig' from package 'wireless-tools' (main)
+ipconfig: command not found
+[06/16/20]seed@VM:~$ ifconfig -a
+enp0s3    Link encap:Ethernet  HWaddr 08:00:27:bf:ca:32  
+          inet addr:10.0.2.6  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::d400:d094:8310:321d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:80 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:116 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:12367 (12.3 KB)  TX bytes:14024 (14.0 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:175 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:175 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:28849 (28.8 KB)  TX bytes:28849 (28.8 KB)
+
+tun0      Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
+          inet addr:192.168.53.1  P-t-P:192.168.53.1  Mask:255.255.255.0
+          inet6 addr: fe80::db07:d9dd:6ad2:5227/64 Scope:Link
+          UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:500 
+          RX bytes:0 (0.0 B)  TX bytes:144 (144.0 B)
+
+[06/16/20]seed@VM:~$ sudo sysctl net.ipc[Kv4.ip_forward=1
+net.ipv4.ip_forward = 1
+[06/16/20]seed@VM:~$ exit
+exit
+
+Script done on Tue 16 Jun 2020 10:40:29 PM EDT
